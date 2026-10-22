@@ -1,0 +1,48 @@
+{
+    "version": "0.4.0",
+    "target": "WebGL",
+    "scene": "MeadowRun",
+    "packages": [
+        {
+            "name": "actors",
+            "hash": "18db33c733b677e7d0f4bd4b417dbaa7",
+            "crc": 3355974081,
+            "bytes": 6252689,
+            "dependencies": []
+        },
+        {
+            "name": "shared",
+            "hash": "b4f55a9c040f4b964ac1cca0ae077826",
+            "crc": 3415623735,
+            "bytes": 40564,
+            "dependencies": []
+        },
+        {
+            "name": "vista",
+            "hash": "78029aecebf533838a36c8d2e64f1f51",
+            "crc": 1673584191,
+            "bytes": 2988633,
+            "dependencies": []
+        },
+        {
+            "name": "meadow",
+            "hash": "8db93cf5c32cfd8f8a83a3d71de0031c",
+            "crc": 3477959012,
+            "bytes": 5756553,
+            "dependencies": [
+                "shared",
+                "vista"
+            ]
+        },
+        {
+            "name": "level_meadow",
+            "hash": "21685f9f815d587a421a335710816df5",
+            "crc": 2801688703,
+            "bytes": 92425,
+            "dependencies": [
+                "actors",
+                "meadow"
+            ]
+        }
+    ]
+}

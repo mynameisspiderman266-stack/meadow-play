@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#fbf7e9">
+  <meta name="description" content="沿着山间小径，寻找跑散的小羊。">
+  <title>风过牧野</title>
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <main id="game" aria-label="风过牧野游戏">
+    <canvas id="unity-canvas" width="390" height="844" tabindex="0" aria-label="游戏画面"></canvas>
+    <div id="loading" role="status" aria-live="polite"><strong>风过牧野</strong><span id="progress">准备出发…</span><progress id="bar" max="1" value="0"></progress><button id="retry" hidden>重新加载</button></div>
+  </main>
+  <noscript>请开启浏览器的 JavaScript 后进入草原。</noscript>
+  <script id="meadow-config" type="application/json">{"loaderUrl":"Build/WebGL.loader.js","dataUrl":"Build/WebGL.data.unityweb","frameworkUrl":"Build/WebGL.framework.js.unityweb","codeUrl":"Build/WebGL.wasm.unityweb","streamingAssetsUrl":"StreamingAssets","companyName":"DefaultCompany","productName":"motionTest","productVersion":"0.4.0"}</script>
+  <script src="site.js" defer></script>
+</body>
+</html>

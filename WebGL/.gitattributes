@@ -1,0 +1,2 @@
+# Keep compiled website bytes intact; do not store these files in LFS.
+* -text -filter
