@@ -12,9 +12,9 @@
         },
         {
             "name": "shared",
-            "hash": "90dd251e8b1d073c07de4bde47b6223e",
-            "crc": 3748904024,
-            "bytes": 117573,
+            "hash": "06d0ac453c3bd8bd6fedd2f923302551",
+            "crc": 4182976515,
+            "bytes": 184159,
             "dependencies": []
         },
         {
@@ -36,12 +36,13 @@
         },
         {
             "name": "level_meadow",
-            "hash": "96bc6b9b0920f1c7f922c739a75191d0",
-            "crc": 1094240248,
-            "bytes": 141938,
+            "hash": "a40a96b2f1cd150537522d992999bd11",
+            "crc": 3312243361,
+            "bytes": 142079,
             "dependencies": [
                 "actors",
                 "meadow",
+                "shared",
                 "vista"
             ]
         }
