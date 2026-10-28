@@ -37,8 +37,8 @@
         {
             "name": "level_meadow",
             "hash": "a40a96b2f1cd150537522d992999bd11",
-            "crc": 3986786457,
-            "bytes": 142326,
+            "crc": 713224218,
+            "bytes": 142375,
             "dependencies": [
                 "actors",
                 "meadow",
